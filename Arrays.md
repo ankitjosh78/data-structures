@@ -1,11 +1,10 @@
 # What the heck is an array?
-   Well, an array is just __a collection of similar types of data__ and each of those __data items in it is called an element of the array__. 
+   Well, an array is just an __ordered  collection of similar types of data__ and each of those __data items in it is called an element of the array__. 
    
    Now, the datatype of the elements can be __any valid data type__ like _int_, _float_, _char_, _string_, _bool_.
    
    One thing to note is that: __the elements__ of an array share the __same variable name__ but has __different index__.
-      
-    
+         
    ### Example:
    To store the weights of 10 of your friends, we can take an array named _wt_ of type _int_ and of size 10.
    
