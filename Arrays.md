@@ -5,7 +5,7 @@
    
    One thing to note is that: __the elements__ of an array share the __same variable name__ but has __different index__.
          
-   ### Example:
+   #### Example:
    To store the weights of 10 of your friends, we can take an array named _wt_ of type _int_ and of size 10.
    
    In C/C++, it would look something like:
@@ -15,7 +15,7 @@
    (Remember: The indexing starts from 0)
         Over here, _wt_[0] is the first element, _wt_[1] is the second element and so on.
     
-  ### Now that you know what an array is, you need to know about the dimension of an array. 
+  #### Now that you know what an array is, you need to know about the dimension of an array. 
     
   
   Arrays can be one dimensional as well as multidimensional. 
@@ -76,7 +76,9 @@
   ### Initialization of the array:
   After the initial declaration, the elements of a local array have garbage(or default) values while the elements of global and static arrays have value as 0.
   
-  __Syntax for initialization of array__: ___data_type_ array_name[size] = { value1, value 2, value3, value4,...valueN};__
+  __Syntax for initialization of array__: 
+  
+  ___data_type_ array_name[size] = { value1, value 2, value3, value4,...valueN};__
   
   Here, array_name is the variable name, size is the size and value1,value2,.. are initializers.
   
