@@ -33,7 +33,7 @@
    ### Declaration of the array:
    Arrays can be declared like any other simple variables.
    
-   __Syntax: _data_type_ array_name[size];__ 
+   __Syntax: _data_type_   array_name[size];__ 
    
    __Example: _int_ wt[10];, _float_ height[20];, _bool_ correct[20], where "wt", "height", "correct" are the array names.__ 
    
@@ -78,7 +78,7 @@
   
   __Syntax for initialization of array__: 
   
-  ___data_type_ array_name[size] = { value1, value 2, value3, value4,...valueN};__
+  ___data_type_   array_name[size] = { value1, value 2, value3, value4,...valueN};__
   
   Here, array_name is the variable name, size is the size and value1,value2,.. are initializers.
   
@@ -89,9 +89,9 @@
    If not mentioned the compiler assumes the size to be equal to the number of initializers.
    
    _A few examples:_
-   1) int arr[]={3,4,10}; over here the size of the array "arr" is going to be 3.
-   2) int mad[10]={5,69,420,54}; over here we can see that the size of the array is specified to be 10 but there are only 5 initializers. In such cases, the rest of the values are going to be initialized to 0 (garbage value). So arr[8] will be 0.
-   3) int buzz[5]={4,12,356,69,123,432,23423}; this is not going to give us any error although over here the total number of initializers is more than the size of the array. In such cases, we are instead going to get a warning and only those values of initializers will be stored starting from 0 to last index of the size. So, arr[5] will be 123.
+   1) int arr[]={3,4,10}; over here the __size of the array "arr" is going to be 3__.
+   2) int mad[10]={5,69,420,54}; over here we can see that the size of the array is specified to be 10 but there are only 5 initializers. In such cases, __the rest of the values are going to be initialized to 0 (garbage value)__. So arr[8] will be 0.
+   3) int buzz[5]={4,12,356,69,123,432,23423}; this is not going to give us any error although over here the total number of initializers is more than the size of the array. In such cases, we are instead __going to get a warning__ and only those values of initializers will be stored __starting from 0 to last index of the size__. So, arr[5] will be 123.
    
    _Now, let's do a quick check of your newly found knowledge:_
    
@@ -101,5 +101,5 @@
    
    It means that the first element of the array is going to be equal to 0 and the rest of them are also going to be initialized with 0. 
    
-   So every value of this array is going to be 0. arr[0]=0, arr[5]=0, arr[9]=0.
+   So __every value of this array is going to be 0__. arr[0]=0, arr[5]=0, arr[9]=0.
   
