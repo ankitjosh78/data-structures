@@ -90,8 +90,8 @@
    
    _A few examples:_
    1) int arr[]={3,4,10}; over here the __size of the array "arr" is going to be 3__.
-   2) int mad[10]={5,69,420,54}; over here we can see that the size of the array is specified to be 10 but there are only 5 initializers. In such cases, __the rest of the values are going to be initialized to 0 (garbage value)__. So arr[8] will be 0.
-   3) int buzz[5]={4,12,356,69,123,432,23423}; this is not going to give us any error although over here the total number of initializers is more than the size of the array. In such cases, we are instead __going to get a warning__ and only those values of initializers will be stored __starting from 0 to last index of the size__. So, arr[5] will be 123.
+   2) int mad[10]={5,69,420,54}; over here we can see that the size of the array is specified to be 10 but there are only 5 initializers. In such cases, __the rest of the values are going to be initialized to 0 (garbage value)__. So mad[8] will be 0.
+   3) int buzz[5]={4,12,356,69,123,432,23423}; this is not going to give us any error although over here the total number of initializers is more than the size of the array. In such cases, we are instead __going to get a warning__ and only those values of initializers will be stored __starting from 0 to last index of the size__. So, buzz[5] will be 123.
    
    _Now, let's do a quick check of your newly found knowledge:_
    
