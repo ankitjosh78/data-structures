@@ -18,7 +18,11 @@
   ### Now that you know what an array is, you need to know about the dimension of an array. 
     
   
-  Arrays can be one dimensional as well as multidimensional. __How to tell the dimension you may ask?__ , well _"the number of subscripts"_ in an array determines it's dimension.
+  Arrays can be one dimensional as well as multidimensional. 
+  
+  __How to tell the dimension you may ask?__ 
+  
+  Well _"the number of subscripts"_ in an array determines it's dimension.
     
   In our example, we saw an one-dimensional array as it had only _one subscript_.
   
