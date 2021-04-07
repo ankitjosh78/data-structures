@@ -68,11 +68,11 @@
    1) For reading:
    
      for(int i=0;i<3;i++)
-        scanf("%d", &arr[i];
+        scanf("%d", &arr[i]);
    2) For printing:
    
      for(int i=0;i<3;i++)
-        printf("%d", arr[i];
+        printf("%d", arr[i]);
   ### Initialization of the array:
   After the initial declaration, the elements of a local array have garbage(or default) values while the elements of global and static arrays have value as 0.
   
