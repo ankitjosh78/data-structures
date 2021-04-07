@@ -35,9 +35,9 @@
    
    __Syntax: _data_type_ array_name[size];__ 
    
-   __Example: _int_ wt[10];, _float_ height[20];, _bool_ correct[20];, where "wt", "height", "correct" are the array names.__ 
+   __Example: _int_ wt[10];, _float_ height[20];, _bool_ correct[20], where "wt", "height", "correct" are the array names.__ 
    
-   So the syntax _float_ height[20]; , means it is a floating value array and can store upto 20 such elements in it.
+   So the syntax _float_ height[20] , means it is a floating value array and can store upto 20 such elements in it.
   
    __Points to keep in mind:__
    
