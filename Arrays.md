@@ -162,7 +162,11 @@
                {17,18,19},
                {20,21,22}   };
    
-   Over here, the __values in the first inner braces will be the value for row 0__, values in the second braces will be values for row 1 and so on...
+  Over here, the __values in the first inner braces will be the value for row 0__, values in the second braces will be values for row 1 and so on...
    
-   A __2-D array is also known as a matrix__. 
+  In 2-D arrays, it is __optional to specify the first dimension while initializing__ but the __second dimension should always be present__.
+  
+  Example: int arr [][3]={ {1,10}, {2,20,200}, {3}, {4,40,400} }; the __first dimension is taken as 4__ since __there are 4 rows in initialization list__.
+   
+  A __2-D array is also known as a matrix__. 
   
