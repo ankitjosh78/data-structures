@@ -106,3 +106,15 @@
    So __every value of this array is going to be 0__. arr[0]=0, arr[5]=0, arr[9]=0.
   
 ## Two Dimensional Arrays:
+   ### Declaration and Accessing the elements of the array:
+   The syntax for a two-dimensional array (2-D) is similar to that of 1-D array except here there are __two subscripts.__
+  
+  __Syntax: data_type  array_name[rowsize][columnsize]__;
+  
+  Here, the _rowsize_ and _columnsize_ specifies the number of rows and columns in the array respectively.
+  
+  Example:  int d2[3][4];
+  
+  Here "d2" is a 2-D array with 3 rows and 4 columns. The individual elements of the array can be accessed by passing two subscripts, where __first one denotes the row number__ and the __second one denotes the column number__. 
+  
+  So, the __first element is d2[0][0] and the last element is d2[2][3]__.  The total number of elements in this array is 3*4 =12.
