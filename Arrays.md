@@ -120,4 +120,13 @@
   So, the __first element is d2[0][0] and the last element is d2[2][3]__.  The total number of elements in this array is 3*4 =12.
   
   ### Processing:
-  For processing 2-D arrays, we use __two nested for loops__.  The __outer loop corresponds to the row__ and the __inner loop corresponds to the column__.
+  For processing 2-D arrays, we use __two nested for loops__.  
+  
+  The __outer loop corresponds to the row__ and the __inner loop corresponds to the column__.
+  
+  Reading:
+    
+    int arr[4][5];
+    for(int i=0;i<4;i++)
+      for(int j=0;j<5;j++)
+         scanf("%d",&arr[i][j]);
