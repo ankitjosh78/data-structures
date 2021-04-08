@@ -135,3 +135,20 @@
       for(int i=0;i<4;i++)
          for(int j=0;j<5;j++)
             printf("%d", arr[i][j]);
+            
+  ### Initialization of the array:
+  2-D arrays can be initialized just like 1-D arrays. 
+  
+  Example:
+  
+  int arr[3][4]={10,11,12,13,14,15,16,17,18,19,20,21};
+  
+  These values are all assigned row-wise, so:
+  
+  arr[0][0]=10, arr[0][1]=11, arr[0][2]=12, arr[0][3]=13
+  
+  arr[1][0]=14, arr[1][1]=15, arr[1][2]=16, arr[1][3]=17
+  
+  arr[2][0]=18, arr[2][1]=19, arr[2][2]=20, arr[2][3]=21
+  
+  
