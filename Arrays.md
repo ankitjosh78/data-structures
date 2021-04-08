@@ -101,7 +101,7 @@
    
    What does it mean? 
    
-   It means that the first element of the array is going to be equal to 0 and the rest of them are also going to be initialized with 0. 
+   It means that the __first element of the array is going to be equal to 0__ and the __rest of them are going to be initialized with 0__. 
    
    So __every value of this array is going to be 0__. arr[0]=0, arr[5]=0, arr[9]=0.
   
