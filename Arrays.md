@@ -143,7 +143,7 @@
   
   int arr[3][4]={10,11,12,13,14,15,16,17,18,19,20,21};
   
-  These values are all assigned row-wise, so:
+  These __values are all assigned row-wise__, so:
   
   arr[0][0]=10, arr[0][1]=11, arr[0][2]=12, arr[0][3]=13
   
@@ -151,4 +151,18 @@
   
   arr[2][0]=18, arr[2][1]=19, arr[2][2]=20, arr[2][3]=21
   
+  
+  _NOTE_: While initializing , __we can also group them row-wise using braces__:
+  
+  Example:
+  
+  int mat[4][3]={ 
+               {11,12,13},
+               {14,15,16},
+               {17,18,19},
+               {20,21,22}   };
+   
+   Over here, the __values in the first inner braces will be the value for row 0__, values in the second braces will be values for row 1 and so on...
+   
+   A __2-D array is also known as a matrix__. 
   
