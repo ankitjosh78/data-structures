@@ -118,3 +118,6 @@
   Here "d2" is a 2-D array with 3 rows and 4 columns. The individual elements of the array can be accessed by passing two subscripts, where __first one denotes the row number__ and the __second one denotes the column number__. 
   
   So, the __first element is d2[0][0] and the last element is d2[2][3]__.  The total number of elements in this array is 3*4 =12.
+  
+  ### Processing:
+  For processing 2-D arrays, we use __two nested for loops__.  The __outer loop corresponds to the row__ and the __inner loop corresponds to the column__.
