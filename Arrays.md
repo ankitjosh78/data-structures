@@ -53,7 +53,7 @@
   
   Over here, 0 is the lower bound and 2 is the upper bound.
   
-  If we try to access an index in the array which is outside of it's upper bound then it will give us an error.
+  If we try to __access an index in the array which is outside of it's upper bound then it will give us an error__.
   
   Example:
   
@@ -74,7 +74,7 @@
      for(int i=0;i<3;i++)
         printf("%d", arr[i]);
   ### Initialization of the array:
-  After the initial declaration, the elements of a local array have garbage(or default) values while the elements of global and static arrays have value as 0.
+  After the initial declaration, __the elements of a local array have garbage(or default) values__ while the elements of __global and static arrays have value as 0__.
   
   __Syntax for initialization of array__: 
   
@@ -84,7 +84,7 @@
   
   _Note_: These values are seperated by commas and there's a semicolon after the ending bracket.
  
-   While initializing an one-dimentisonal array, it is optional to mention the size of it.
+   While initializing an one-dimentisonal array, __it is optional to mention the size of it__.
    
    If not mentioned the __compiler assumes the size to be equal to the number of initializers__.
    
@@ -95,7 +95,7 @@
    
    3) int buzz[5]={4,12,356,69,123,432,23423}; this is not going to give us any error although over here the total number of initializers is more than the size of the array. In such cases, we are instead __going to get a warning__ and only those values of initializers will be stored __starting from 0 to last index of the size__. So, buzz[5] will be 123.
    
-   _Now, let's do a quick check of your newly found knowledge:_
+   __Now, let's do a quick check:__
    
    int arr[10]={0};
    
