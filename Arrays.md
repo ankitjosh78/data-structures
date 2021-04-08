@@ -41,13 +41,13 @@
   
    __Points to keep in mind:__
    
-   1) When an array is declared, the amount of space that is need to hold all the elements is allocated in the memory.
-   2) The size of the array must be known during compilation time.
-   3) We can't use any variables for specifying the size of the array. If it's a variable then it's value must be known.
+   1) When an array is declared, the __amount of space that__ is need to hold all the elements is __allocated in the memory__.
+   2) The __size of the array must be known during compilation time__.
+   3) We __can't use any variables for specifying the size__ of the array. If it's a variable then __it's value must be known__.
   ### Accessing the elements:
-  The elements in the array can be accessed by specifying the array name and the index in brackets. 
+  The elements in the array can be accessed by __specifying the array name and the index in brackets__. 
   
-  Index 0 is known as the lower bound of the array and the last index is known as the upper bound of the array.
+  __Index 0 is known as the lower bound__ of the array and the __last index is known as the upper bound__ of the array.
   
   So, for a integer array named "arr" of length 3, the elements would be arr[0], arr[1], arr[2]. 
   
@@ -60,9 +60,9 @@
   int arr=[3]; but we try to access arr[23], this is going to give us an error.
   
   ### Processing the array:
-  To process an array, the most common way of doing it is to use a _for_ loop.
+  To process an array, the most common way of doing it is to use a __for loop__.
   
-  The loop variable is used in place of the index of the array. It should start from 0 , because we want to access the whole array and should go on till the last index while incrementing by 1.
+  The loop variable is used in place of the index of the array. It __should start from 0__ , because we want to access the whole array and should __go on till the last index while incrementing by 1__.
   
    __Example:__
    1) For reading:
@@ -86,11 +86,13 @@
  
    While initializing an one-dimentisonal array, it is optional to mention the size of it.
    
-   If not mentioned the compiler assumes the size to be equal to the number of initializers.
+   If not mentioned the __compiler assumes the size to be equal to the number of initializers__.
    
    _A few examples:_
    1) int arr[]={3,4,10}; over here the __size of the array "arr" is going to be 3__.
+
    2) int mad[10]={5,69,420,54}; over here we can see that the size of the array is specified to be 10 but there are only 5 initializers. In such cases, __the rest of the values are going to be initialized to 0 (garbage value)__. So mad[8] will be 0.
+   
    3) int buzz[5]={4,12,356,69,123,432,23423}; this is not going to give us any error although over here the total number of initializers is more than the size of the array. In such cases, we are instead __going to get a warning__ and only those values of initializers will be stored __starting from 0 to last index of the size__. So, buzz[5] will be 123.
    
    _Now, let's do a quick check of your newly found knowledge:_
