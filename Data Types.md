@@ -22,11 +22,11 @@ Now, to use a data type that is not defined in the language itself, it is the __
 
 Abstract data type is a concept which defines a data type logically. It specifies a set of instructions for the values and operations. 
 
-ADT tells us __what is to be done__ and not __how it will be done__ , or the algorithms used in it, or the representation of it in memory.
+ADT tells us __what is to be done__ and __not how it will be done__ , or the algorithms used in it, or the representation of it in memory.
 
 The user need not know how the data is implemented in memory. Example: We know about _int_, _float_ and can perform operations on them without knowing how they are actually implemented. 
 
-So for an ADT , the user __needs to know what it can do__ and not __how it does it__. 
+So for an ADT , the user __needs to know what it can do__ and __not how it does it__. 
 
 Example:
 
