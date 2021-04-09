@@ -28,20 +28,20 @@ So for an ADT , the user __needs to know what it can do__ and not __how it does 
 
 Example:
 
-     __STACK__:
-     
-     A stack is defined a data structure which contains elements of same type and supports a bunch of specific operations, which are:
-     
-     0)initialize() - initializes the stack.
-     1)push() - inserts an element at one end of the stack.
-     2)pop() - removes and returns the topmost element of the stack at the same end.
-     3)peek() - just returns the topmost element of the stack without removing it.
-     4)size() - returns the number of elements in the stack.
-     5)isEmpty() - returns true if there are no elements in the stack.
-     6)isFull() - returns true if the stack has reached it's maximum limit.
+  __STACK__:
+  
+  A stack is defined a data structure which contains elements of same type and supports a bunch of specific operations, which are:
+  
+  0)initialize() - initializes the stack.
+  1)push() - inserts an element at one end of the stack.
+  2)pop() - removes and returns the topmost element of the stack at the same end.
+  3)peek() - just returns the topmost element of the stack without removing it.
+  4)size() - returns the number of elements in the stack.
+  5)isEmpty() - returns true if there are no elements in the stack.
+  6)isFull() - returns true if the stack has reached it's maximum limit.
         
 
-We can see that over here, in the STACK data type , there are a bunch of operations that are allowed. But we __don't talk about how they are going to be implemented__. 
+We can see that over here, in the STACK data type , there are a __bunch of operations that are allowed__. But we __don't talk about how they are going to be implemented__. 
 
 There can be __multiple ways to implement a ADT__.  
         
