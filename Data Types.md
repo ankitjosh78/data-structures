@@ -5,15 +5,17 @@ For example:
 
    __int__ data type can take values in a range and various operations can be performed on it such as addition, substraction, division, multiplication, etc.
    
-These are all built-in data types. Other examples include __float__, __bool__, __char__ . The operations and values for these data types are predefined in the language. 
+These are all built-in data types. Other examples include __float__, __bool__, __char__ . The __operations and values for these data types are predefined in the language__. 
    
 A brief overview of these common builtin data types:
 
 1)float - used to store floating point numbers, can be negative as well as positive.
+
 2)char - used to store a single character.
+
 3)bool- used to store a logical result such as true(1) or false(0).
 
-Now, to use a data type that is not defined in the language itself, it is the programmer's responsibility to define it and set the operations and the domain of values of it.
+Now, to use a data type that is not defined in the language itself, it is the __programmer's responsibility to define it__ and __set the operations and the domain of values for it__.
 
 
 ## Abstract data types:
